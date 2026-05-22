@@ -8,14 +8,44 @@ Fundamento y contenido realizado sobre la solemne II
 #### ***Camila Aguilar Venegas***
   
 Descripción objetiva (borrar este subtitulo luego)
- -  Qué es el proyecto
- -  Qué se ve en pantalla
- -  Qué elementos visuales aparecen
- -  Qué inputs utiliza
- -  Qué outputs genera
- -  Paleta de colores utilizada, en donde fueron utilizados <img width="1600" height="2400" alt="AdobeColor-Mi tema de color" src="https://github.com/user-attachments/assets/896c4231-2457-45ed-b47e-5c1340590d81" />  
-   
-***DESCRIPCIÓN FORMAL_***
+El proyecto es un sistema visual interactivo desarrolllado en p5js. El proyecto construye una composición basada en radios, compuesta por múltiplos anillos de ellipses que reaccionan al movimiento y toque del mouse.
+*Se exploró*
+  - Op Art    
+El sistema funciona mediante reglas matematicas y condicionales que modifican: tamaño, color y comportamiento visual de los elementos.
+
+En pantalla se observa una gran ellipse (500px) central que funciona como base de la composición visual. Todo ocurre sobre esta ellipse, en esta aparece una estructura de múltiples anillos circulares formados por ellipses de 10px, distribuidas radialmentes en la composición expandiendose, pulsando. El sistema responde de manera constante según como el usuario interactue, provocando que las formas crezacan o disminuyan, cambien de color. La ellipse principal presenta un movimiento oscilante similar a un latido es por esto que es nombrado como let latido();
+
+#####  Qué elementos visuales aparecen en la obra
+  - Una ellipse base de 500px que funciona como estructura. 
+ -  Un círculo central reactivo , cambia de tamaño según como se la interacción con el canva.
+ -  Múltiples anillos radiales.
+ -  Ellipses de 10px distribuidas según el diametro y el radio de la ellipse base
+ -  variaciones de escala producidas mediante map();
+ -  Cambios cromáticos generados por la condición mouseIsPressed();
+ -  Movimiento oscilante producido por sin(frameCount);
+ -  Transparencias y superposición de elementos
+       - Figuras geometricas circulares
+       - Repetición
+       - Ritmo visual
+       - Simetría radial  
+En la composicón se generan inputs continuos tales como:
+  - *mouseX:* Detecta la posición horizontal del mouse
+  - *mouseY:* Detecta la posición vertical del mouse
+  - *MouseIsPressed:* Detecta si el usuario está presionando el mouse
+  - *frameCount:* Animación continua con el tiempo que responde a fotogramas, comienza en 0 y cada vez que el código se ejecuta por completo incrementa en 1.
+
+Estos imputs modifican *tamaño, color, escala*
+
+A su vez los *Outputs* visuales generados son:
+  - Crecimiento y disminución de las ellipses según la cercanía  del mouse
+  - variación del tamaño del círculo central
+  - Cambio de color al presionar el mouse
+  - Movimiento oscilante de la ellipse base
+  - Sensación óptica de vibración y movimiento
+  - Dinamismo del sistema visual a partir de la interacción del usuario  
+El resultado es una composición generativa reactiva que responde constantemente al comportamiento de quíen observa e interactua.
+
+####  ***DESCRIPCIÓN FORMAL_***
  
 La idea fundamental fue retomar un patrón diseñado para un ramo del semestre anterior en base a estas técnicas utilizando matrices y replicarla en el espacio. Buscar e intencionar la interacción con la matriz en conjunto. La idea principal del proyecto, se genera una obra que responde al OpArt de manera visual, utilizando la interacción con el mouse y el teclado como medio que dialogante con la composición, estos actuan como el medio observador realizando la activación de la obra evitando el movimiento del usuario, el cuál es necesario al ver una obra común de esta corriente artistica.
   
@@ -31,10 +61,31 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
   - Obra sin título *1965 (En exhibición en la Tate Britain).* ![Obra sin título 1965](https://media.tate.org.uk/art/images/work/P/P07/P07104_10.jpg)
   -  Sin título *1965 (En exhibición en la Tate Britain).* ![Obra sin título 1965](https://media.tate.org.uk/art/images/work/P/P07/P07106_10.jpg)
   - Obra sin título *1965 (En exhibición en la Tate Britain).* ![Obra sin título 1965](https://media.tate.org.uk/art/images/work/P/P07/P07109_10.jpg)
+###  *artistas no identificados*
+- autor no identificado <img width="735" height="731" alt="referente1" src="https://github.com/user-attachments/assets/4b34c1e8-0f95-4945-b92e-32d3c70a5332" />
+- autor no identificado
+  <img width="640" height="640" alt="referente2" src="https://github.com/user-attachments/assets/f6d3dcb8-0af9-4901-8019-9dd28e10ea9d" />
+
 
 ####  *Documentación Proceso*
-###  *Referencias*
+-<img width="1919" height="898" alt="Captura de pantalla 2026-05-22 121225" src="https://github.com/user-attachments/assets/3c442a95-983c-4726-b225-f64b34c9a6c3" />
+
+- <img width="984" height="639" alt="Captura de pantalla 2026-05-22 121235" src="https://github.com/user-attachments/assets/645cd09f-7b97-42f8-b16b-ec29567e28a8" />
+
+- <img width="826" height="672" alt="Captura de pantalla 2026-05-22 121241" src="https://github.com/user-attachments/assets/2c8d63d1-a844-4645-a21b-106cd4d99582" />
+- <img width="1831" height="961" alt="Captura de pantalla 2026-05-22 122643" src="https://github.com/user-attachments/assets/b2b194cd-e5f2-4c99-beec-d9d3159d1aca" />
+- <img width="913" height="728" alt="Captura de pantalla 2026-05-22 122652" src="https://github.com/user-attachments/assets/635be4ae-26df-4a6b-b433-9f4ad377515d" />
+- <img width="817" height="630" alt="Captura de pantalla 2026-05-22 122701" src="https://github.com/user-attachments/assets/3ca7bd9a-e300-4aa8-9067-9104d86cb400" />
+
+###  *Referencias Youtube/páginas web*
   - https://milesberry.net/2023/3/op-art-p5js/
   - https://amplifydai.com/recursos/arte-generativo-p5js/
   - https://thecodingtrain.com/
-     - (aquí pon el link más especifico de la página anterior)
+  - https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=4
+  - https://www.youtube.com/watch?v=RrSOv9FH6uo&list=LL&index=1
+#### *Referencias_p5js*
+- angleMode(); https://p5js.org/es/reference/p5/angleMode/
+- sin()/ cos(); https://p5js.org/es/examples/angles-and-motion-sine-cosine/
+- mouseIsPressed(); https://p5js.org/reference/p5/mouseIsPressed/
+- Constrain(); https://p5js.org/es/reference/p5/constrain/
+- frameCount(); https://p5js.org/reference/p5/frameCount/
