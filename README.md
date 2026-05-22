@@ -13,7 +13,7 @@ El proyecto es un sistema visual interactivo desarrolllado en p5js. El proyecto 
   - Op Art    
 El sistema funciona mediante reglas matematicas y condicionales que modifican: tamaño, color y comportamiento visual de los elementos.
 
-En pantalla se observa una gran ellipse (500px) central que funciona como base de la composición visual. Todo ocurre sobre esta ellipse, en esta aparece una estructura de múltiples anillos circulares formados por ellipses de 10px, distribuidas radialmentes en la composición expandiendose, pulsando. El sistema responde de manera constante según como el usuario interactue, provocando que las formas crezacan o disminuyan, cambien de color. La ellipse principal presenta un movimiento oscilante similar a un latido es por esto que es nombrado como let latido();
+En pantalla se observa una gran ellipse (500px) central que funciona como base de la composición visual. Todo ocurre sobre esta ellipse, en esta aparece una estructura de múltiples anillos circulares formados por ellipses de 10px, distribuidas radialmentes en la composición expandiendose, pulsando. El sistema responde de manera constante según como el usuario interactue, provocando que las formas crezacan o disminuyan, cambien de color. La ellipse principal presenta un movimiento oscilante similar a un latido es por esto que es nombrado como *let latido();*
 
 #####  Qué elementos visuales aparecen en la obra
   - Una ellipse base de 500px que funciona como estructura. 
