@@ -71,24 +71,33 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 [DIAGRAMA_FLUJO-PC.pdf](https://github.com/user-attachments/files/28163539/DIAGRAMA_FLUJO-PC.pdf)
 
 ######   Inputs
-*mouseX*: Detecta la posición horizontal del mouse
-*mouseY*:	Detecta la posición vertical del mouse
-*mouseIsPressed*:	Detecta si el usuario presiona el mouse
-*frameCount*: Genera movimiento continuo de acuerdo a fotogramas(fps) parte en 0, cada vez que el código se repite este aumenta en 1
+  *mouseX*: Detecta la posición horizontal del mouse
+  *mouseY*:	Detecta la posición vertical del mouse
+  *mouseIsPressed*:	Detecta si el usuario presiona el mouse
+  *frameCount*: Genera movimiento continuo de acuerdo a fotogramas(fps) parte en 0, cada vez que el código se repite este aumenta en 1
 
 ######  Procesos principales
-cos (angle) / sin (angle) : distribuye las ellipses alreddedor de un radio
-dist () : calcula la distancia entre el mouse y cada ellipse del sistema
-map () : transforma la distancia en tamaños dinamicos, permitiendo la interacción (mouse cerca: ellipses grandes, mouse lejos: ellipses pequeñas)
-constrain () : limita el tamaño mínimo y máximo de las figuras, esto evita deformaciones.
-if (mouseIsPressed) : modifica color, contraste e interacción
-sin (frameCount): movimiento oscilante de expansión y contracción de la ellipse principal
+-   cos (angle) / sin (angle) : distribuye las ellipses alreddedor de un radio
+  
+-   dist () : calcula la distancia entre el mouse y cada ellipse del sistema
+  
+- map () : transforma la distancia en tamaños dinamicos, permitiendo la interacción (mouse cerca: ellipses grandes, mouse lejos: ellipses pequeñas)
+  
+-  constrain () : limita el tamaño mínimo y máximo de las figuras, esto evita deformaciones.
+  
+- if (mouseIsPressed) : modifica color, contraste e interacción
+  
+-  sin (frameCount): movimiento oscilante de expansión y contracción de la ellipse principal
+  
 
 ######  Outputs
-Variación de tamaño: las ellipsen crecen o disminuyen
-Cambio cromático: Las figuras cambian de color
-Movimiento pulsante: La ellipse principal oscila
-composición radial: Se generan anillos dinámicos
+ -  Variación de tamaño: las ellipsen crecen o disminuyen
+  
+ - Cambio cromático: Las figuras cambian de color
+  
+ -  Movimiento pulsante: La ellipse principal oscila
+  
+ -  composición radial: Se generan anillos dinámicos
 
 El sistema funciona mediante un relación entre el observador y el sistema interactivo. el usuario introduce información al mover o presionar el mouse. La posición del cursor es capturada mediante mouseX y mouseY, mientras que mouseIsPressed detecta la presión del mouse. El sistema transforma esa información en ellementos viasuales dinamicos. de esta manera la composición deja de ser estatico y se transforma en un sistema visual generativo reactivo.
 
