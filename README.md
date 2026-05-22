@@ -4,10 +4,11 @@ Fundamento y contenido realizado sobre la solemne II
 ##  SOLEMNE_02
 #####  Para el desarrollo del encargo
 
-#  peckii
+#  Peckii
 #### ***Camila Aguilar Venegas***
   
-Descripción objetiva (borrar este subtitulo luego)
+
+
 El proyecto es un sistema visual interactivo desarrolllado en p5js. El proyecto construye una composición basada en radios, compuesta por múltiplos anillos de ellipses que reaccionan al movimiento y toque del mouse.
 *Se exploró*
   - Op Art    
