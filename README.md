@@ -4,7 +4,7 @@ Fundamento y contenido realizado sobre la solemne II
 ##  SOLEMNE_02
 #####  Para el desarrollo del encargo
 
-#  NOMBRE_PROYECTO
+#  peckii
 #### ***Camila Aguilar Venegas***
   
 Descripción objetiva (borrar este subtitulo luego)
@@ -47,7 +47,7 @@ El resultado es una composición generativa reactiva que responde constantemente
 
 ####  ***DESCRIPCIÓN FORMAL_***
  
-La idea fundamental fue retomar un patrón diseñado para un ramo del semestre anterior en base a estas técnicas utilizando matrices y replicarla en el espacio. Buscar e intencionar la interacción con la matriz en conjunto. La idea principal del proyecto, se genera una obra que responde al OpArt de manera visual, utilizando la interacción con el mouse y el teclado como medio que dialogante con la composición, estos actuan como el medio observador realizando la activación de la obra evitando el movimiento del usuario, el cuál es necesario al ver una obra común de esta corriente artistica.
+La idea fundamental busca intencionar la interacción con la matriz en conjunto. La idea principal del proyecto, se genera una obra que responde al OpArt de manera visual, utilizando la interacción con el mouse y el teclado como medio que dialogante con la composición, estos actuan como el medio observador realizando la activación de la obra evitando el movimiento del usuario, el cuál es necesario al ver una obra común de esta corriente artistica.
   
 Los referentes utilizados para la realiazción del encargo *Sistema visual dinámico e interactivo* en P5.js responden a la rama OpArt.   
 El OpArt hace uso del ojo humano para engañarlo a través de ilusiones ópticas o *trampantojos*, este último es una técnica artistica diseñada para engañar a la vista jugando con la perspectiva, las luces y las sombras, aprovecha esto para hacer pasar formas planas por tridimensionales.
@@ -64,8 +64,33 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 ###  *artistas no identificados*
 - autor no identificado <img width="735" height="731" alt="referente1" src="https://github.com/user-attachments/assets/4b34c1e8-0f95-4945-b92e-32d3c70a5332" />
 - autor no identificado
-  <img width="640" height="640" alt="referente2" src="https://github.com/user-attachments/assets/f6d3dcb8-0af9-4901-8019-9dd28e10ea9d" />
+<img width="640" height="640" alt="referente2" src="https://github.com/user-attachments/assets/f6d3dcb8-0af9-4901-8019-9dd28e10ea9d" />
 
+###  Input y Output y sistema
+####  Diagrama de flujo:  
+[DIAGRAMA_FLUJO-PC.pdf](https://github.com/user-attachments/files/28163539/DIAGRAMA_FLUJO-PC.pdf)
+
+######   Inputs
+*mouseX*: Detecta la posición horizontal del mouse
+*mouseY*:	Detecta la posición vertical del mouse
+*mouseIsPressed*:	Detecta si el usuario presiona el mouse
+*frameCount*: Genera movimiento continuo de acuerdo a fotogramas(fps) parte en 0, cada vez que el código se repite este aumenta en 1
+
+######  Procesos principales
+cos (angle) / sin (angle) : distribuye las ellipses alreddedor de un radio
+dist () : calcula la distancia entre el mouse y cada ellipse del sistema
+map () : transforma la distancia en tamaños dinamicos, permitiendo la interacción (mouse cerca: ellipses grandes, mouse lejos: ellipses pequeñas)
+constrain () : limita el tamaño mínimo y máximo de las figuras, esto evita deformaciones.
+if (mouseIsPressed) : modifica color, contraste e interacción
+sin (frameCount): movimiento oscilante de expansión y contracción de la ellipse principal
+
+######  Outputs
+Variación de tamaño: las ellipsen crecen o disminuyen
+Cambio cromático: Las figuras cambian de color
+Movimiento pulsante: La ellipse principal oscila
+composición radial: Se generan anillos dinámicos
+
+El sistema funciona mediante un relación entre el observador y el sistema interactivo. el usuario introduce información al mover o presionar el mouse. La posición del cursor es capturada mediante mouseX y mouseY, mientras que mouseIsPressed detecta la presión del mouse. El sistema transforma esa información en ellementos viasuales dinamicos. de esta manera la composición deja de ser estatico y se transforma en un sistema visual generativo reactivo.
 
 ####  *Documentación Proceso*
 -<img width="1919" height="898" alt="Captura de pantalla 2026-05-22 121225" src="https://github.com/user-attachments/assets/3c442a95-983c-4726-b225-f64b34c9a6c3" />
@@ -77,6 +102,12 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 - <img width="913" height="728" alt="Captura de pantalla 2026-05-22 122652" src="https://github.com/user-attachments/assets/635be4ae-26df-4a6b-b433-9f4ad377515d" />
 - <img width="817" height="630" alt="Captura de pantalla 2026-05-22 122701" src="https://github.com/user-attachments/assets/3ca7bd9a-e300-4aa8-9067-9104d86cb400" />
 
+
+## Link p5js
+ https://editor.p5js.org/camila.aguilar2/sketches/sHf_k9sBr
+
+
+     
 ###  *Referencias Youtube/páginas web*
   - https://milesberry.net/2023/3/op-art-p5js/
   - https://amplifydai.com/recursos/arte-generativo-p5js/
