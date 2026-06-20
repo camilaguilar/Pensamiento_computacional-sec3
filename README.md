@@ -1,7 +1,7 @@
 ## Pensamiento_computacional-sec3
-Fundamento y contenido realizado sobre la solemne II
+Fundamento y contenido realizado sobre el EXAMEN
 ####  Sistema visual dinámico e interactivo en p5.js
-##  SOLEMNE_02
+##  EXAMEN
 #####  Para el desarrollo del encargo
 
 #  Peckii
