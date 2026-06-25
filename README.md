@@ -9,7 +9,7 @@ Fundamento y contenido realizado sobre el EXAMEN
   
 
 
-El proyecto es un sistema visual interactivo desarrolllado en p5js. El proyecto construye una composición basada en radios, compuesta por múltiplos anillos de ellipses que reaccionan al movimiento y toque del mouse.
+peckii es un sistema visual interactivo desarrolllado en p5js. El proyecto construye una composición basada en radios, compuesta por múltiplos anillos de ellipses que reaccionan al movimiento y toque del mouse.
 *Se exploró*
   - Op Art    
 El sistema funciona mediante reglas matematicas y condicionales que modifican: tamaño, color y comportamiento visual de los elementos.
