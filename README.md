@@ -111,6 +111,8 @@ El sistema funciona mediante un relación entre el observador y el sistema inter
 - <img width="1831" height="961" alt="Captura de pantalla 2026-05-22 122643" src="https://github.com/user-attachments/assets/b2b194cd-e5f2-4c99-beec-d9d3159d1aca" />
 - <img width="913" height="728" alt="Captura de pantalla 2026-05-22 122652" src="https://github.com/user-attachments/assets/635be4ae-26df-4a6b-b433-9f4ad377515d" />
 - <img width="817" height="630" alt="Captura de pantalla 2026-05-22 122701" src="https://github.com/user-attachments/assets/3ca7bd9a-e300-4aa8-9067-9104d86cb400" />
+<img width="1900" height="765" alt="Captura de pantalla 2026-06-25 092422" src="https://github.com/user-attachments/assets/f3d2e4c8-183a-4588-90c0-61c50d97c615" />
+<img width="1913" height="830" alt="Captura de pantalla 2026-06-25 094606" src="https://github.com/user-attachments/assets/f84401a4-a0fd-45c0-acd6-ac4004f20f86" />
 
 
 ## Link p5js
