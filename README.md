@@ -48,7 +48,7 @@ El resultado es una composición generativa reactiva que responde constantemente
 
 ####  ***DESCRIPCIÓN FORMAL_***
  
-La idea fundamental busca intencionar la interacción con la matriz en conjunto. La idea principal del proyecto, se genera una obra que responde al OpArt de manera visual, utilizando la interacción con el mouse y el teclado como medio que dialogante con la composición, estos actuan como el medio observador realizando la activación de la obra evitando el movimiento del usuario, el cuál es necesario al ver una obra común de esta corriente artistica.
+La idea fundamental busca intencionar la interacción con Peckii. La idea principal del proyecto, se genera una obra que responde a como es llamado el hongo Hydnellum Peckii, aprovechando su color rojo, utilizando la interacción con el mouse y el teclado como medio dialogante con la composición, estos actuan como el medio observador realizando la activación de la obra evitando el movimiento del usuario, el cuál es necesario al ver una obra común de esta corriente artistica, Peckii fusiona las etapaps de inetracción y busca el funcionamiento por etapas de como se visualiza la parte superior de un hongo.
   
 Los referentes utilizados para la realiazción del encargo *Sistema visual dinámico e interactivo* en P5.js responden a la rama OpArt.   
 El OpArt hace uso del ojo humano para engañarlo a través de ilusiones ópticas o *trampantojos*, este último es una técnica artistica diseñada para engañar a la vista jugando con la perspectiva, las luces y las sombras, aprovecha esto para hacer pasar formas planas por tridimensionales.
@@ -73,7 +73,8 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 
 ###  Input y Output y sistema
 ####  Diagrama de flujo:  
-[DIAGRAMA_FLUJO-PC.pdf](https://github.com/user-attachments/files/28163539/DIAGRAMA_FLUJO-PC.pdf)
+![Uploading DIAGRAMA DE FLUJO.png…]()
+
 
 ######   Inputs
   *mouseX*: Detecta la posición horizontal del mouse
@@ -93,7 +94,30 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 - if (mouseIsPressed) : modifica color, contraste e interacción
   
 -  sin (frameCount): movimiento oscilante de expansión y contracción de la ellipse principal
-  
+###### Estados y eventos
+Estado 0
+Pantalla de inicio
+
+Evento
+Click
+
+↓
+
+Estado 1
+Experiencia principal
+
+Eventos
+• click
+• teclado
+• mouse
+
+↓
+
+Estado 2
+Pantalla final
+
+Evento
+Cantidad determinada de clicks
 
 ######  Outputs
  -  Variación de tamaño: las ellipsen crecen o disminuyen
@@ -117,7 +141,10 @@ El sistema funciona mediante un relación entre el observador y el sistema inter
 - <img width="817" height="630" alt="Captura de pantalla 2026-05-22 122701" src="https://github.com/user-attachments/assets/3ca7bd9a-e300-4aa8-9067-9104d86cb400" />
 - <img width="1900" height="765" alt="Captura de pantalla 2026-06-25 092422" src="https://github.com/user-attachments/assets/f3d2e4c8-183a-4588-90c0-61c50d97c615" />
 - <img width="1913" height="830" alt="Captura de pantalla 2026-06-25 094606" src="https://github.com/user-attachments/assets/f84401a4-a0fd-45c0-acd6-ac4004f20f86" />
+## Recursos multimedia utilizados
 
+Recurso: Sonido
+Música sadada de un hongo a partir de electrodos, se reproduce en el estado 1 cuando aparecen las esporas, reforzando la interacción y entregando retroalimentación al usuario.
 
 ## Link p5js
  https://editor.p5js.org/camila.aguilar2/sketches/sHf_k9sBr
