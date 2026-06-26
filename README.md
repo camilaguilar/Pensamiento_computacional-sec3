@@ -56,7 +56,7 @@ En el OpArt el espectador debe participar de manera activa con la obra, ya sea m
 
 ## Audio usado
 
-[Escuchar audio del proyecto](audio/audio-p5js.mp3)
+[Escuchar audio del proyecto](audio-p5js.mp3)
 
 ###  Referentes
 La artista <ins>***Bridget Riley***</ins>  
