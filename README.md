@@ -54,7 +54,7 @@ Los referentes utilizados para la realiazción del encargo *Sistema visual diná
 El OpArt hace uso del ojo humano para engañarlo a través de ilusiones ópticas o *trampantojos*, este último es una técnica artistica diseñada para engañar a la vista jugando con la perspectiva, las luces y las sombras, aprovecha esto para hacer pasar formas planas por tridimensionales.
 En el OpArt el espectador debe participar de manera activa con la obra, ya sea moviéndose o desplazándose y así poder captar el efecto óptico de manera optima, justo aquí es donde estas obras pueden traducirse a tráves de un pensamiento computacional buscando la interacción
 
-Peckii es nombrada tomando como referente un hongo llamado 
+Peckii es nombrada tomando como referente un hongo llamado Hydnellum peckii, conocido por sus puntos rojos como la sangre, fue utlizada como el mayor referente gráfico y conceptual en el código
 
 ###  Referentes
 La artista <ins>***Bridget Riley***</ins>  
