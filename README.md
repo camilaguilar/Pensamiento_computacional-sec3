@@ -145,13 +145,13 @@ El sistema funciona mediante un relación entre el observador y el sistema inter
 ## Recursos multimedia utilizados
 
 Recurso: Sonido
-Música sadada de un hongo a partir de electrodos, se reproduce en el estado 1 cuando aparecen las esporas, reforzando la interacción y entregando retroalimentación al usuario.
+Recurso musical sacada de un hongo a partir de electrodos, se reproduce en el estado 1 cuando aparecen los puntos rojos, reforzando la interacción y entregando retroalimentación al usuario entendiendo que esta música surge debido a actividad biolectrica de los hongos al tener contacto con el exterior.
 
 ## Link p5js
  https://editor.p5js.org/camila.aguilar2/sketches/sHf_k9sBr
 ### Reflexión final
 
-A partir de una bajada conceptual, utilizando el mundo fungico, se pensó como llevarlo a un lugar interactivo a partir de estados, pensando en el nombre que se la coloquialmente a peckii "hongo sangrante" debido a que  
+A partir de una bajada conceptual, utilizando el mundo fungico, se pensó como llevarlo a un lugar interactivo a partir de estados, pensando en el nombre que se le da coloquialmente a peckii "hongo sangrante" debido a que cuando uno lo presiona los pequeños circulos en su parte superior se expulsan de si, esto fue llevado a la interactividad del mouse y el teclado, cada vez que uno quisiese ver a peckii debes presionar y clickear, escuchando el sonido de este.
 
      
 ###  *Referencias Youtube/páginas web*
