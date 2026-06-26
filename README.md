@@ -149,7 +149,9 @@ Música sadada de un hongo a partir de electrodos, se reproduce en el estado 1 c
 
 ## Link p5js
  https://editor.p5js.org/camila.aguilar2/sketches/sHf_k9sBr
+### Reflexión final
 
+A partir de una bajada conceptual, utilizando el mundo fungico, se pensó como llevarlo a un lugar interactivo a partir de estados, pensando en el nombre que se la coloquialmente a peckii "hongo sangrante" debido a que  
 
      
 ###  *Referencias Youtube/páginas web*
