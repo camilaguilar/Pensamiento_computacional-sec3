@@ -66,6 +66,8 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 - autor no identificado <img width="735" height="731" alt="referente1" src="https://github.com/user-attachments/assets/4b34c1e8-0f95-4945-b92e-32d3c70a5332" />
 - autor no identificado
 <img width="640" height="640" alt="referente2" src="https://github.com/user-attachments/assets/f6d3dcb8-0af9-4901-8019-9dd28e10ea9d" />
+<img width="1280" height="960" alt="fundamenti github 2" src="https://github.com/user-attachments/assets/f8a14c9e-f4ce-4360-b9e8-e4fee11ed468" />
+<img width="1500" height="1125" alt="Fundamento github" src="https://github.com/user-attachments/assets/9d4362f7-f9b2-4fac-b36f-7173611c6f37" />
 
 ###  Input y Output y sistema
 ####  Diagrama de flujo:  
