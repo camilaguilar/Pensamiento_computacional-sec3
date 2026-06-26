@@ -73,7 +73,8 @@ Bridget nació en Norwood, Londres. Estudió en Goldsmiths College entre los añ
 
 ###  Input y Output y sistema
 ####  Diagrama de flujo:  
-![Uploading DIAGRAMA DE FLUJO.png…]()
+<img width="1024" height="1536" alt="DIAGRAMA DE FLUJO" src="https://github.com/user-attachments/assets/48d40c82-06f7-44e4-93ec-9d3a71220868" />
+
 
 
 ######   Inputs
